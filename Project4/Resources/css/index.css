@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 69px auto;
+    width: 95%;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    z-index: 1;
+}
+
+header img {
+   margin: auto 10px;
+   height: 50px;
+}
+
+nav {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+li {
+    padding: 0 10px;
+}
+
+a {
+    color: white;
+}
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url('../images/img-mission-background.jpg');
+    margin: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission h2 {
+    padding: 10px 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.mission h4 {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.tea { 
+    height: 600px;
+    width: 1000px;
+    margin: 120px;
+}
+
+.tea h2, .tea h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.images {
+    display: flex;
+    height: 90%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content:center;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.location {
+    width: 1200px;
+    height: 500px;
+    margin: 26px;
+    background-image: url('../images/img-locations-background.jpg');
+}
+
+.location h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.locations {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90%;
+    position: relative;
+    top: -40px;
+}
+
+.sub-div {
+    height: 50%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.sub-div h3 {
+    padding: 10px;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+footer h4 {
+    margin: 0 0 10px 20px;
+    font-weight: normal;
+}
+
+a:active {
+    color: rgba(210, 180, 140, 0.612);
+}
+
+li:hover {
+    padding-bottom: 20px;
+}
+
+
+
+
+

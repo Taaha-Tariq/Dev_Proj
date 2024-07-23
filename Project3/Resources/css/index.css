@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/vector-OCT-2020-92_generated.jpg');
+    color: white;
+}
+
+header {
+    background-color: rgba(255, 255, 255,0.3);
+    position: fixed;
+    width:100%;
+    height: 90px;
+    top: 0;
+}
+
+.flex {
+    display: inline-flex;
+    height: 100%;
+    width: 49%;
+    align-items: center;
+}
+
+div h2{
+    margin-left:125px;
+}
+
+ul {
+    display: inline-flex;
+    width: 100%;
+    height: 80%; 
+    justify-content: flex-end;
+    
+}
+
+li {
+    margin: 10px;
+    width: 30%;
+    text-align:center;
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px; 
+    color: #F0F0F7;
+}
+
+section {
+    margin: 250px 0 0 125px;
+    width: 40%;
+    height: 200px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+p {
+   font-style: italic;
+   width: 60%;
+   color: #F0F0F7;
+   font-weight: 500;
+}
+
+section div {
+    width: 60%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+button {
+    width: 50%;
+    height: 70%;
+    border-radius: 5px;
+    font-weight: bold;
+    color:#C3A456;
+    margin-left: 20%;
+    min-width:80px;
+    box-shadow: -1px 1px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+}
+
+footer p {
+    color:#C3A456;
+}
+
+h2, i{
+    color:#C3A456;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+    color:#C3A456;
+}
+
+button:hover {
+    color:#F0F0F7;
+    background-color: #c3a456;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0 0;
+    background-color: #c3a456b3;
+}
+
+a:active {
+    color: #c3a456b3;
+}
+ 
+@media only screen and (max-width: 500px){
+    a {
+        visibility: collapse;
+    }
+}
